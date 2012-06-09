@@ -8,8 +8,8 @@
 </form>
 <script type="text/javascript">
   {literal}
-//  $(document).ready(function() {
-//    $('#sps_form').submit();
-//  });
+  $(document).ready(function() {
+    $('#sps_form').submit();
+  });
   {/literal}
 </script>

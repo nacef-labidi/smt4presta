@@ -25,7 +25,6 @@ class SmtSps extends PaymentModule {
 
   public function install() {
     if (!parent::install()
-        OR !$this->createSpsTbl()
         OR !Configuration::updateValue('SMTSPS_AFFILIE', '')
         OR !Configuration::updateValue('SMTSPS_SANDBOX', 1)
         OR !$this->registerHook('payment')
@@ -38,27 +37,8 @@ class SmtSps extends PaymentModule {
   {
     if (!Configuration::deleteByName('SMTSPS_AFFILIE')
         OR !Configuration::deleteByName('SMTSPS_SANDBOX')
-        OR !$this->dropSpsTbl()
         OR !parent::uninstall())
       return false;
-    return true;
-  }
-
-  function createSpsTbl() {
-    $db = Db::getInstance();
-    $query = "CREATE TABLE `"._DB_PREFIX_."order_sps` (
-      `id_payment` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-      `id_order` INT NOT NULL,
-      `id_transaction` TEXT NOT NULL,
-      `status` TEXT NOT NULL) ENGINE=InnoDB;";
-    $db->Execute($query);
-    return true;
-  }
-
-  function dropSpsTbl() {
-    $db = Db::getInstance();
-    $query = "DROP TABLE `"._DB_PREFIX_."order_sps`;";
-    $db->Execute($query);
     return true;
   }
 
