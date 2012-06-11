@@ -8,7 +8,7 @@ $param = $_GET['Param'];
 
 switch($action) {
   case "DETAIL":
-    if ($cart = new Cart($reference)) {
+    if ($cart = new Cart(intval($reference))) {
       echo "Reference=".$reference."&Action=".$action."&Reponse=".$cart->getOrderTotal();
     }
     break;
