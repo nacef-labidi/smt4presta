@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<module>
-	<name>smtsps</name>
-	<displayName><![CDATA[SMT SPS]]></displayName>
-	<version><![CDATA[1.0.0]]></version>
-	<description><![CDATA[Paiement &agrave; travers SPS de Soci&eacute;t&eacute; Mon&eacute;tique Tunisie.]]></description>
-	<author><![CDATA[Nacef LABIDI &lt;nacef.labidi@gmail.com&gt;]]></author>
-	<tab><![CDATA[payments_gateways]]></tab>
-	<is_configurable>1</is_configurable>
-	<need_instance>1</need_instance>
+        <module>
+            <name>smtsps</name>
+            <displayName><![CDATA[SMT]]></displayName>
+            <version><![CDATA[1.5]]></version>
+            <description><![CDATA[Monetique tunisie.]]></description>
+            <author><![CDATA[]]></author>
+            <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall>Are you sure you want to delete your details?</confirmUninstall>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
 	<limited_countries></limited_countries>
-</module>
+        </module>

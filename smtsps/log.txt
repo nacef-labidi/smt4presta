@@ -1,0 +1,270 @@
+
+date : 2013-10-04 09:35:27
+Array
+(
+)
+
+
+
+date : 2013-18-08 09:35:07
+Array
+(
+    [Reference] => CMD22008TN-16923
+    [Action] => DETAIL
+    [Param] => 
+)
+
+
+Reference=CMD22008TN-16923&Action=DETAIL&Reponse=200.000
+date : 2013-18-08 09:39:54
+Array
+(
+    [Reference] => CMD22008TN-16923
+    [Action] => ACCORD
+    [Param] => txtest
+)
+
+
+Reference=CMD22008TN-16923&Action=ACCORD&Reponse=OK
+date : 2013-19-08 11:05:20
+Array
+(
+    [Reference] => CMD22017TN-82881
+    [Action] => DETAIL
+    [Param] => 
+    [dttrx] => 20
+    [tmtrx] => 
+)
+
+
+Reference=CMD22017TN-82881&Action=DETAIL&Reponse=200.000
+date : 2013-19-08 11:05:56
+Array
+(
+    [Reference] => CMD22017TN-58291
+    [Action] => DETAIL
+    [Param] => 
+    [dttrx] => 20
+    [tmtrx] => 
+)
+
+
+Reference=CMD22017TN-58291&Action=DETAIL&Reponse=200.000
+date : 2013-19-08 11:09:07
+Array
+(
+    [Reference] => CMD22016TN-72655
+    [Action] => DETAIL
+    [Param] => 
+    [dttrx] => 20
+    [tmtrx] => 
+)
+
+
+Reference=CMD22016TN-72655&Action=DETAIL&Reponse=200.000
+date : 2013-19-08 11:15:29
+Array
+(
+    [Reference] => CMD22017TN-45176
+    [Action] => DETAIL
+    [Param] => 
+    [dttrx] => 20
+    [tmtrx] => 
+)
+
+
+Reference=CMD22017TN-45176&Action=DETAIL&Reponse=200.000
+date : 2013-19-08 01:30:58
+Array
+(
+    [Reference] => CMD22017TN-65218
+    [Action] => DETAIL
+    [Param] => 
+    [dttrx] => 20
+    [tmtrx] => 
+)
+
+
+Reference=CMD22017TN-65218&Action=DETAIL&Reponse=200.000
+date : 2013-19-08 01:34:21
+Array
+(
+    [Reference] => CMD22017TN-43098
+    [Action] => DETAIL
+    [Param] => 
+    [dttrx] => 20
+    [tmtrx] => 
+)
+
+
+Reference=CMD22017TN-43098&Action=DETAIL&Reponse=200.000
+date : 2013-19-08 04:57:51
+Array
+(
+)
+
+
+
+date : 2013-19-08 07:31:46
+Array
+(
+    [Reference] => CMD22017TN-80403
+    [Action] => DETAIL
+    [Param] => 
+    [dttrx] => 20
+    [tmtrx] => 
+)
+
+
+Reference=CMD22017TN-80403&Action=DETAIL&Reponse=200.000
+date : 2013-19-08 10:04:33
+Array
+(
+    [Reference] => CMD22017TN-97907
+    [Action] => DETAIL
+    [Param] => 
+    [dttrx] => 20
+    [tmtrx] => 
+)
+
+
+Reference=CMD22017TN-97907&Action=DETAIL&Reponse=200.000
+date : 2013-19-08 10:51:57
+Array
+(
+    [Reference] => CMD22017TN-47886
+    [Action] => DETAIL
+    [Param] => 
+    [dttrx] => 20
+    [tmtrx] => 
+)
+
+
+Reference=CMD22017TN-47886&Action=DETAIL&Reponse=200.000
+date : 2013-20-08 10:20:33
+Array
+(
+    [Reference] => CMD22019TN-3136
+    [Action] => DETAIL
+    [Param] => 
+)
+
+
+Reference=CMD22019TN-3136&Action=DETAIL&Reponse=2233720368548E+18f
+date : 2013-20-08 10:27:24
+Array
+(
+    [Reference] => CMD22019TN-3136
+    [Action] => DETAIL
+    [Param] => 
+)
+
+
+Reference=CMD22019TN-3136&Action=DETAIL&Reponse=200.000
+date : 2013-20-08 11:35:29
+Array
+(
+    [Reference] => CMD22020TN-13711
+    [Action] => DETAIL
+    [Param] => 
+)
+
+
+Reference=CMD22020TN-13711&Action=DETAIL&Reponse=200.000
+date : 2013-20-08 11:36:01
+Array
+(
+    [Reference] => CMD22020TN-13711
+    [Action] => DETAIL
+    [Param] => 
+)
+
+
+Reference=CMD22020TN-13711&Action=DETAIL&Reponse=200.000
+date : 2013-20-08 11:36:06
+Array
+(
+    [Reference] => CMD22020TN-13711
+    [Action] => DETAIL
+    [Param] => 
+)
+
+
+Reference=CMD22020TN-13711&Action=DETAIL&Reponse=200.000
+date : 2013-20-08 11:36:14
+Array
+(
+    [Reference] => CMD22020TN-13711
+    [Action] => ACCORD
+    [Param] => 
+)
+
+
+Reference=CMD22020TN-13711&Action=ACCORD&Reponse=OK
+date : 2013-20-08 11:36:45
+Succes\nArray
+(
+)
+
+date : 2013-20-08 11:37:51
+Succes\nArray
+(
+)
+
+date : 2013-20-08 11:38:05
+Succes\nArray
+(
+)
+
+date : 2013-20-08 11:38:10
+Succes\nArray
+(
+)
+
+date : 2013-20-08 11:40:05
+Succes\nArray
+(
+    [Reference] => CMD22020TN-13711
+    [Action] => ACCORD
+    [Param] => 
+)
+
+date : 2013-20-08 11:40:19
+Succes\nArray
+(
+    [Reference] => CMD22020TN-13711
+    [Action] => ACCORD
+    [Param] => 
+)
+
+date : 2013-20-08 11:44:26
+Succes\nArray
+(
+    [Reference] => CMD22020TN-13711
+    [Action] => ACCORD
+    [Param] => 
+)
+
+date : 2013-20-08 11:44:39
+Succes\nArray
+(
+    [Reference] => CMD22020TN-13711
+    [Action] => ACCORD
+    [Param] => 
+)
+
+date : 2013-20-08 11:44:53
+Succes\nArray
+(
+    [Reference] => CMD22020TN-13711
+    [Action] => ACCORD
+    [Param] => 
+)
+
+date : 2013-20-08 11:45:22
+Succes\nArray
+(
+    [Reference] => CMD22020TN-13711
+    [Action] => ACCORD
+    [Param] => 
+)

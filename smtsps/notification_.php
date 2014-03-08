@@ -12,11 +12,11 @@ fclose($fp);
 Tester le header de la requette HTTP
 */
 include(dirname(__FILE__).'/../../config/config.inc.php');
-include(dirname(__FILE__).'/smtsps.php');
+include(dirname(__FILE__).'/smt.php');
 
 $errors = '';
 $result = false;
-$smt = new SmtSps();
+$smt = new Smt();
 
 
 $ref = $_GET['Reference'];
@@ -49,8 +49,7 @@ switch ($act) {
 	case "ACCORD":
 	
 			$tampon = "Reference=".$ref. "&Action=".$act. "&Reponse=OK";
-			$extra['transaction_id'] = $par;
-			$smt->validateOrder(intval($id), 55, floatval($montant), $smt->displayName, $smt->l('transaction ').$par.' '.$tampon, $extra, null, false, true, null);
+			$smt->validateOrder(intval($id), 55, floatval($montant), $smt->displayName, $smt->l('transaction ').$par.' '.$tampon);
 			break;
 	case "REFUS":
 		//	$smt->validateOrder($id, _PS_OS_ERROR_, 0, $smt->displayName, $smt->l('erreur ').$act);
