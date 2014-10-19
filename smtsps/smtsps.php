@@ -10,16 +10,20 @@ class SmtSps extends PaymentModule
 		$this->name = 'smtsps';
 		$this->tab = 'payments_gateways';
 		$this->version = '1.5';
+		$this->author = 'Nacef LABIDI';
+		$this->need_instance = 1;
+		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
+		$this->bootstrap = true;
 		
 		$this->currencies = true;
 		
 		$this->currencies_mode = 'radio';
 
-        parent::__construct();
+	        parent::__construct();
 
 		$this->page = basename(__FILE__, '.php');
-        $this->displayName = $this->l('SMT');
-        $this->description = $this->l('Monetique tunisie.');
+        	$this->displayName = $this->l('SMT');
+        	$this->description = $this->l('Monetique tunisie.');
 		$this->confirmUninstall = $this->l('Are you sure you want to delete your details?');
 		if (Configuration::get('SMT_AFFILIE') == 0)
 			$this->warning = $this->l('Veuillez parametrer votre module en renseignant le numero de terminal fourni pas l\'SMT');
@@ -37,7 +41,7 @@ class SmtSps extends PaymentModule
 	
 	public function getSMTUrl()
 	{
-			return Configuration::get('SMT_TEST') ? 'http://196.203.10.183/paiement/' : 'https://www.smt-sps.com.tn/paiement/index.asp';
+			return Configuration::get('SMT_TEST') ? 'http://196.203.11.74/paiement/' : 'https://www.smt-sps.com.tn/paiement/index.asp';
 	}
 
 	public function install()
@@ -92,7 +96,7 @@ class SmtSps extends PaymentModule
 		if (isset($_POST['submitSMT']))
 		{
 			if (empty($_POST['affilie']))
-				$this->_postErrors[] = $this->l('Le num&eacute;ro de terminal est requis.');
+				$this->_postErrors[] = $this->l('Le numéro de terminal est requis.');
 		
 		if (!sizeof($this->_postErrors))
 			{
@@ -144,7 +148,7 @@ class SmtSps extends PaymentModule
 	
 	
 		<img src="../modules/smtsps/smt.gif" style="float:left; margin-right:15px;" />
-		<b>'.$this->l('Ce module vous permet de r&eacute;aliser des paiement avec des cartes banquaire.').'</b><br /><br />
+		<b>'.$this->l('Ce module vous permet de réaliser des paiement avec des cartes banquaires.').'</b><br /><br />
 		<div style="clear:both;">&nbsp;</div>';
 	}
 
@@ -158,13 +162,13 @@ class SmtSps extends PaymentModule
 		<form action="'.$_SERVER['REQUEST_URI'].'" method="post" style="clear: both;">
 		<fieldset>
 			<legend><img src="../img/admin/contact.gif" />'.$this->l('Configuration').'</legend>
-			<label>'.$this->l('Num&eacute;ro du Terminal').'</label>
+			<label>'.$this->l('Numéro affilié').'</label>
 			<div class="margin-form"><input type="text" size="33" name="affilie" value="'.htmlentities($affilie, ENT_COMPAT, 'UTF-8').'" /></div>
 			<div class="margin-form">
 				<input type="radio" name="smt_test" value="1" '.($smt_test? 'checked="checked"' : '').' /> <label class="t">'.$this->l('Environnement de Test').'</label>
 				<input type="radio" name="smt_test" value="0" '.(!$smt_test ? 'checked="checked"' : '').' /> <label class="t">'.$this->l('En production').'</label>
 			</div>
-			<input type="submit" name="submitSMT" value="'.$this->l('Mettre &agrave; jour').'" class="button" /></center>
+			<input type="submit" name="submitSMT" value="'.$this->l('Mettre à jour').'" class="button" /></center>
 		</fieldset>
 		</form><br /><br />
 		';

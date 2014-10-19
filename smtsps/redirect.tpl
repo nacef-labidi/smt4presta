@@ -1,6 +1,5 @@
 <html>
 	<head>
-		<script type="text/javascript" src="http://{$url}js/jquery/jquery-1.7.2.min.js"></script>
 	</head>
 	<body style='background:#EEEFFF'>
 	<br><br><br><br><br><br>
